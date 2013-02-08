@@ -1,0 +1,7 @@
+username: rdcapasso@gmail.com
+vim_opts: set guifont=Menlo:h12 | colorscheme desert256 | autocmd VimEnter * NERDTreeToggle | autocmd VimEnter * TagbarClose
+name: Robert Capasso
+signature: |
+  -- 
+
+    Sent from Vmail. http://danielchoi.com/software/vmail.html

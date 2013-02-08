@@ -1,0 +1,11 @@
+username: robert.capasso@vice.com
+vim_opts: set guifont=Menlo:h12 | colorscheme desert256 | autocmd VimEnter * NERDTreeToggle | autocmd VimEnter * TagbarClose
+name: Robert Capasso
+signature: |
+  -- 
+    Robert Capasso
+    Lead Developer, VICE Media
+
+    http://www.vice.com
+
+    Sent from Vmail. http://danielchoi.com/software/vmail.html
