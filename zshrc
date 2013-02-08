@@ -305,15 +305,6 @@ bindkey "^[[3~" delete-char-or-list
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
-# ruby/rvm/mvim stuff
-export VMAIL_VIM=mvim
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-alias gmail="VMAIL_HOME=/Users/robertcapasso/.vmail/gmail vmail -t ~/.vmail/default/vmail-gmail-contacts.txt"
-alias vicemail="VMAIL_HOME=/Users/robertcapasso/.vmail/vicemail vmail -t ~/.vmail/default/vmail-vice-contacts.txt"
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 # Include stuff that should only be on this
 if [[ -r ~/.localzsh ]]; then
     source ~/.localzsh
