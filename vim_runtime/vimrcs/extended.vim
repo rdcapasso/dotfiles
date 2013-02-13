@@ -145,12 +145,11 @@ func! CurrentFileDir(cmd)
     return a:cmd . " " . expand("%:p:h") . "/"
 endfunc
 
-nmap <F8> :TagbarToggle<CR>
 
 " automatically open and close the popup menu / preview window
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 
 " remove highlighting after search.
 nnoremap <F3> :set hlsearch!<CR>
-
-nmap <F9> :NERDTreeToggle<CR>
+nmap <F9> :TagbarToggle<CR>
+nmap <F8> :NERDTreeToggle<CR>

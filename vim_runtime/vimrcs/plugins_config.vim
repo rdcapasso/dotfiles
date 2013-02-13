@@ -95,4 +95,4 @@ let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => php tags for tagbar
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:tagbar_phpctags_bin='/Users/robertcapasso/.vim/plugin/phpctags/phpctags'
+let g:tagbar_phpctags_bin='$HOME/.vim/plugin/phpctags/phpctags'
