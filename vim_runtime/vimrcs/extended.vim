@@ -19,12 +19,12 @@ endif
 " Set font according to system
 if has("mac") || has("macunix")
     set gfn=Inconsolata:h14
-    set shell=/bin/bash
+    set shell=/bin/zsh
 elseif has("win16") || has("win32")
     set gfn=Bitstream\ Vera\ Sans\ Mono:h10
 elseif has("linux")
     set gfn=Monospace\ 10
-    set shell=/bin/bash
+    set shell=/bin/zsh
 endif
 
 " Open MacVim in fullscreen mode
