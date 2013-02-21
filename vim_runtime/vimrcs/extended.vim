@@ -18,7 +18,7 @@ endif
 
 " Set font according to system
 if has("mac") || has("macunix")
-    set gfn=Menlo:h10
+    set gfn=Inconsolata:h14
     set shell=/bin/bash
 elseif has("win16") || has("win32")
     set gfn=Bitstream\ Vera\ Sans\ Mono:h10
