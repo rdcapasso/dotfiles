@@ -96,6 +96,8 @@ _complete_git() {
 #complete -F _complete_git gm
 #complete -F _complete_git gpo
 
+export TERM="xterm-256color"
+
 # Set the prompt.
 #PROMPT=$'%{${fg[cyan]}%}%B%~%b$(prompt_git_info)%{${fg[default]}%} '
 
