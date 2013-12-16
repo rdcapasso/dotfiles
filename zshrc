@@ -1,7 +1,7 @@
 #path
 export PATH=/usr/local/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Commands:/usr/local/mysql/bin:$PATH
 # MacPorts Installer addition on 2011-01-05_at_14:13:32: adding an appropriate PATH variable for use with MacPorts.
-export PATH=$PATH:/opt/local/sbin:/opt/local/bin
+export PATH=$PATH:/opt/local/sbin:/opt/local/bin:/usr/local/include/FTGL/
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 # Setting PATH for Python 3.2
@@ -9,7 +9,7 @@ export PATH=$PATH:/opt/local/sbin:/opt/local/bin
 export PATH=$HOME/bin:/Library/Frameworks/Python.framework/Versions/3.2/bin:$PATH
 
 #put home dir in PATH
-export PATH=$HOME:$PATH
+export PATH=$HOME:$PATH::/usr/local/go/bin
 
 #Color table from: http://www.understudy.net/custom.html
 fg_black=%{$'\e[0;30m'%}
@@ -174,6 +174,7 @@ alias gcob='git checkout -b' # create and co a branch
 alias gcod='git checkout develop'
 alias gcom='git checkout master'
 
+alias ga='git add'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gbd='git branch -D'
@@ -189,6 +190,7 @@ alias gitx='open /Applications/GitX.app/'
 alias irc='irssi --connect=irc.efnet.org'
 alias scr="screen"
 alias Grep="grep"
+alias pgrep="grep -Rin --include=\"*.php\""
 alias less="less -mR"
 
 #function aliases
