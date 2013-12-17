@@ -7,3 +7,9 @@
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "vim_runtime/sources_non_forked/tagbar"]
+	path = vim_runtime/sources_non_forked/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "vim/plugin/phpctags"]
+	path = vim/plugin/phpctags
+	url = https://github.com/vim-php/phpctags

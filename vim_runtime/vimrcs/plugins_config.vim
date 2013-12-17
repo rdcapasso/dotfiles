@@ -90,7 +90,7 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 " => tagbar.vim config
 " set ctags location
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
+let g:tagbar_ctags_bin = '/opt/local/bin/ctags'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => php tags for tagbar
