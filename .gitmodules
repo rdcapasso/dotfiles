@@ -13,3 +13,6 @@
 [submodule "vim/plugin/phpctags"]
 	path = vim/plugin/phpctags
 	url = https://github.com/vim-php/phpctags
+[submodule "vim_runtime/sources_non_forked/vim-fugitive"]
+	path = vim_runtime/sources_non_forked/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
