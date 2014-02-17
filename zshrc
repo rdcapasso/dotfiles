@@ -191,6 +191,7 @@ alias irc='irssi --connect=irc.efnet.org'
 alias scr="screen"
 alias Grep="grep"
 alias pgrep="grep -Rin --include=\"*.php\""
+alias jgrep="grep -Rin --include=\"*.js\" --exclude=\"*.min*\""
 alias less="less -mR"
 
 #function aliases

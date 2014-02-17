@@ -18,7 +18,7 @@ endif
 
 " Set font according to system
 if has("mac") || has("macunix")
-    set gfn=Inconsolata:h12
+    set gfn=Inconsolata:h15
     set shell=/bin/zsh
 elseif has("win16") || has("win32")
     set gfn=Bitstream\ Vera\ Sans\ Mono:h10
@@ -151,5 +151,13 @@ au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 
 " remove highlighting after search.
 nnoremap <F3> :set hlsearch!<CR>
+
+" shortcuts for tagbar and nerdtree
 nmap <F9> :TagbarToggle<CR>
 nmap <F8> :NERDTreeToggle<CR>
+
+" tab fixup
+set autoindent
+set noexpandtab
+set tabstop=4
+set shiftwidth=4
